@@ -58,3 +58,7 @@ gem 'devise'
 gem 'rails-i18n'
 
 gem 'active_storage_validations'
+
+group :production do
+  gem 'pg'
+end
